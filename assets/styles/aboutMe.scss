@@ -151,6 +151,29 @@
   text-shadow: 0 0 10px #16db65;
 }
 
+.educ details {
+  color: #16db65;
+  margin-left: 2.5rem;
+  transition: 0.3s ease;
+}
+
+.educ details:hover {
+  text-shadow: 0 0 10px #16db65;
+  cursor: pointer;
+}
+
+.educ details p {
+  line-height: 0px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.educ details p:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 0px #16db65;
+  font-size: 17.5px;
+}
+
 @media (max-width: 1200px) {
   .text-container p {
     width: 90%;
