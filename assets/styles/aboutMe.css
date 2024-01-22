@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Courier+Prime&display=swap");
+.aboutme {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 5%;
+  background: #010504;
+  color: #fff;
+}
+
+@media (max-width: 785px) {
+  .aboutme {
+    font-size: 15px;
+  }
+}
+@media (max-width: 550px) {
+  .aboutme {
+    font-size: 13px;
+  }
+}
+@media (max-width: 360px) {
+  .aboutme {
+    font-size: 11px;
+  }
+}
+.aboutme .title {
+  max-width: 700px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.aboutme .title h1 {
+  position: relative;
+  margin-bottom: 30px;
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.aboutme .title h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 125%;
+  left: 0;
+  background-color: #ffffff;
+  animation: lineAnimation 2s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+}
+
+@keyframes lineAnimation {
+  0% {
+    transform: scaleX(0.5);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0.5);
+  }
+}
+.aboutme .title h1::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: #16db65;
+  top: calc(125% - 1px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.photo-container {
+  text-align: center;
+}
+
+.photo-container img {
+  border-radius: 50%;
+  max-width: 15%;
+  max-height: 20%;
+}
+
+.text-container {
+  position: relative;
+}
+
+.text-container h2 {
+  font-size: 30px;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.text-container h2 .fname {
+  color: #16db65;
+}
+
+.text-container p {
+  margin: 35px 0;
+  text-align: justify;
+  width: 90%;
+  font-size: 17px;
+}
+
+.info {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info h3 {
+  text-align: center;
+  text-shadow: 0 0 5px #16db65;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.info p {
+  padding-left: 5%;
+}
+
+.educ .title {
+  color: #16db65;
+  text-shadow: 0 0 3px #16db65; /* Initial white glow effect */
+  animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.line {
+  transform: translateX(5.5%);
+  background-color: #16db65;
+  height: 3px;
+  width: 85%;
+  display: inline-block;
+  box-shadow: 0 0 10px #16db65;
+}
+
+.educ .modules {
+  font-size: 16px;
+}
+
+.educ .modules span {
+  font-size: 20px;
+  color: #16db65;
+  text-shadow: 0 0 10px #16db65;
+}
+
+@media (max-width: 1200px) {
+  .text-container p {
+    width: 90%;
+  }
+  .line {
+    width: 76%;
+  }
+}
+@media (max-width: 785px) {
+  .info {
+    flex-direction: column;
+    transform: translateX(2.3%);
+  }
+  .text-container p {
+    width: 90%;
+  }
+  .text-container h2 {
+    font-size: 25px;
+    font-family: "Courier Prime", monospace;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .line {
+    width: 85%;
+  }
+}
+@media (max-width: 550px) {
+  .aboutme .title {
+    scale: 0.8;
+  }
+  .text-container p {
+    width: 90%;
+    font-size: 15px;
+  }
+  .text-container h2 {
+    font-size: 20px;
+    font-family: "Courier Prime", monospace;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .line {
+    width: 88%;
+  }
+}
+@media (max-width: 435px) {
+  .text-container p {
+    width: 85%;
+    font-size: 11px;
+    transform: translateX(5%);
+  }
+  .text-container h2 {
+    font-size: 16px;
+    font-family: "Courier Prime", monospace;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .info .modules {
+    font-size: 10px;
+  }
+}
+@media (max-width: 418px) {
+  .aboutme .title {
+    scale: 0.6;
+  }
+  .text-container p {
+    width: 85%;
+    font-size: 11px;
+    transform: translateX(5%);
+  }
+  .text-container h2 {
+    font-size: 16px;
+    font-family: "Courier Prime", monospace;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .info .modules {
+    font-size: 10px;
+  }
+  .info h3 {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=aboutMe.css.map */

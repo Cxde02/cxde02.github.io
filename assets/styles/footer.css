@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nulshock");
+.footer {
+  margin-top: -30px;
+  background: #010504;
+  color: #fff;
+}
+
+.footerContact .picture {
+  padding-top: 0.7rem;
+}
+
+.footerContact .picture img {
+  width: 5%;
+  border-radius: 50%;
+}
+
+.footerContact h4 {
+  letter-spacing: 1px;
+  font-family: "Barlow";
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #16db65;
+  gap: 2rem;
+}
+
+.footer-copyright {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+
+.footer-copyright p span {
+  color: #16db65;
+}
+
+@media (max-width: 1810px) {
+  .footer-social h2 {
+    font-size: 22px;
+  }
+  .footerContact .picture img {
+    width: 5%;
+  }
+}
+@media (max-width: 730px) {
+  .footer-social h2 {
+    font-size: 22px;
+  }
+  .footerContact h4 {
+    font-size: 15px;
+  }
+  .footer-copyright p {
+    font-size: 12px;
+  }
+  .social-icons a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 418px) {
+  .footer-social h2 {
+    font-size: 20px;
+  }
+  .footerContact h4 {
+    font-size: 13px;
+  }
+  .footer-copyright p {
+    font-size: 10px;
+  }
+  .social-icons a {
+    font-size: 11px;
+  }
+}/*# sourceMappingURL=footer.css.map */

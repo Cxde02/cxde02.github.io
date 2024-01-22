@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.coolLink {
+  background-image: linear-gradient(to right, #16db65, #16db65 50%, #ffffff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.coolLink:before {
+  content: "";
+  background: #16db65;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.coolLink:hover {
+  background-position: 0;
+}
+
+.coolLink:hover::before {
+  width: 100%;
+}
+
+.coolButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  letter-spacing: 0.1em;
+  transition: 0.5s;
+  position: relative;
+  font-size: 13px;
+  background: #333;
+  border: none;
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .coolButton {
+    transform: scale3d(0.7, 0.7, 0.7);
+  }
+}
+
+.coolButton:hover {
+  letter-spacing: 0.25em;
+  background: #16db65;
+  color: #16db65;
+  box-shadow: 0 0 20px #16db65;
+}
+
+.coolButton::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #222222;
+}
+
+.coolButton span {
+  position: relative;
+  z-index: 1;
+}
+
+.coolButton i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.coolButton i::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #16db65;
+  width: 7px;
+  height: 4px;
+  top: -3.5px;
+  left: 80%;
+  background: #222222;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.coolButton:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+.coolButton i::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #16db65;
+  width: 7px;
+  height: 4px;
+  bottom: -3.5px;
+  left: 20%;
+  background: #222222;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.coolButton:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+
+.coolButton:active {
+  transform: scale(0.95);
+  transition-duration: 0.2s;
+  background: #b8f0ce;
+}
+
+.icon {
+  transform: scale(2);
+  transition: transform 0.1s ease-in-out; /* Added transition for smooth scaling */
+}
+.icon:hover {
+  animation: glowAnimation 0.5s infinite alternate; /* Added glowing animation */
+  transform: scale(2.5); /* Set the larger scale on hover */
+  color: #16db65;
+}
+@keyframes glowAnimation {
+  0% {
+    text-shadow: 0 0 2px rgba(22, 219, 101, 0.8); /* Adjust glow color and intensity */
+  }
+  100% {
+    text-shadow: 0 0 7px rgb(22, 219, 101); /* Adjust glow color and intensity */
+  }
+}/*# sourceMappingURL=coolLinks.css.map */
