@@ -52,7 +52,12 @@
     }
     @media (max-width: 675px) {
       .coolLink[data-text="Projects"] {
-        right: 150%;
+        right: 190%;
+      }
+    }
+    @media (max-width: 415px) {
+      .coolLink[data-text="Projects"] {
+        right: 200%;
       }
     }
     @media (max-width: 360px) {
