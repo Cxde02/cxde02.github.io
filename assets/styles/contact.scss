@@ -176,6 +176,7 @@
   border-radius: 7px;
   box-shadow: 0 0 7px #16db65;
   transition: 0.2s linear;
+  transform: translateX(20%);
 }
 .contact-form .second-container form button:hover {
   scale: 1.05;
@@ -205,6 +206,9 @@
   .contact .title {
     scale: 0.8;
     transform: translateX(-10%);
+  }
+  .contact-form .second-container form button {
+    scale: 0.8;
   }
 }
 @media (max-width: 418px) {
