@@ -244,7 +244,15 @@
   .certifications .sub-title h3 {
     font-size: 14px;
   }
-  #news-slider {
+  .post-slide {
+    height: 75%;
+    width: 75%;
+    transform: translateX(8.5%);
+  }
+  .owl-controls .owl-buttons .owl-prev {
+    scale: 0.9;
+  }
+  .owl-controls .owl-buttons .owl-next {
     scale: 0.9;
   }
 }
@@ -255,7 +263,15 @@
   .certifications .sub-title h3 {
     font-size: 11px;
   }
-  #news-slider {
-    scale: 0.9;
+  .post-slide {
+    height: 60%;
+    width: 60%;
+    transform: translateX(21%);
+  }
+  .owl-controls .owl-buttons .owl-prev {
+    scale: 0.65;
+  }
+  .owl-controls .owl-buttons .owl-next {
+    scale: 0.65;
   }
 }/*# sourceMappingURL=certifications.css.map */
