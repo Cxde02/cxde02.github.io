@@ -288,6 +288,20 @@
       padding-top: 1rem;
     }
 
+    @media (max-width: 1555px) {
+      h4 {
+        font-size: 35px;
+      }
+      h1 {
+        font-size: 50px;
+        width: 110%;
+      }
+      p {
+        font-size: 17px;
+        width: 100%;
+      }
+    }
+
     @media (max-width: 1200px) {
       h4 {
         font-size: 35px;
