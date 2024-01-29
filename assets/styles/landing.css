@@ -713,6 +713,7 @@
 @media (max-width: 465px) {
   .landing .socials a {
     scale: 0.9;
+    transform: translateX(20%);
   }
   .landing .scrollDown {
     scale: 0.9;
@@ -721,6 +722,7 @@
 @media (max-width: 415px) {
   .landing .socials a {
     scale: 0.7;
+    transform: translateX(53%);
   }
   .landing .socials {
     gap: 20px;

@@ -740,6 +740,7 @@
   @media (max-width: 465px) {
     .socials a {
       scale: 0.9;
+      transform: translateX(20%);
     }
     .scrollDown {
       scale: 0.9;
@@ -748,6 +749,7 @@
   @media (max-width: 415px) {
     .socials a {
       scale: 0.7;
+      transform: translateX(53%);
     }
     .socials {
       gap: 20px;
