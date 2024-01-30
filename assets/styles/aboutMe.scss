@@ -202,7 +202,7 @@
   }
   .info h3 {
     //text-align: start;
-    //transform: translateX(41%);
+    transform: translateX(-1%);
   }
 }
 
@@ -223,6 +223,10 @@
   }
   .line {
     width: 88%;
+  }
+  .info h3 {
+    //text-align: start;
+    transform: translateX(-2%);
   }
 }
 

@@ -199,6 +199,9 @@
   .line {
     width: 85%;
   }
+  .info h3 {
+    transform: translateX(-1%);
+  }
 }
 @media (max-width: 550px) {
   .aboutme .title {
@@ -216,6 +219,9 @@
   }
   .line {
     width: 88%;
+  }
+  .info h3 {
+    transform: translateX(-2%);
   }
 }
 @media (max-width: 435px) {
