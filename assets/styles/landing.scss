@@ -298,7 +298,21 @@
       }
       p {
         font-size: 17px;
-        width: 100%;
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 1500px) {
+      h4 {
+        font-size: 35px;
+      }
+      h1 {
+        font-size: 50px;
+        width: 90%;
+      }
+      p {
+        font-size: 17px;
+        width: 90%;
       }
     }
 

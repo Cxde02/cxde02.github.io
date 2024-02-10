@@ -276,7 +276,20 @@
   }
   .landing .intro p {
     font-size: 17px;
-    width: 100%;
+    width: 90%;
+  }
+}
+@media (max-width: 1500px) {
+  .landing .intro h4 {
+    font-size: 35px;
+  }
+  .landing .intro h1 {
+    font-size: 50px;
+    width: 90%;
+  }
+  .landing .intro p {
+    font-size: 17px;
+    width: 90%;
   }
 }
 @media (max-width: 1200px) {
