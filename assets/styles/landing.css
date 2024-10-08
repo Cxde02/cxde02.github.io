@@ -43,20 +43,20 @@
   }
 }
 @media (max-width: 675px) {
-  .landing .header .coolLink[data-text=Home],
-  .landing .header .coolLink[data-text=About],
-  .landing .header .coolLink[data-text=Certifications],
-  .landing .header .coolLink[data-text=Skills] {
+  .landing .header .coolLink[data-text="Home"],
+  .landing .header .coolLink[data-text="About"],
+  .landing .header .coolLink[data-text="Certifications"],
+  .landing .header .coolLink[data-text="Skills"] {
     display: none;
   }
 }
 @media (max-width: 675px) {
-  .landing .header .coolLink[data-text=Projects] {
+  .landing .header .coolLink[data-text="Projects"] {
     right: 190%;
   }
 }
 @media (max-width: 415px) {
-  .landing .header .coolLink[data-text=Projects] {
+  .landing .header .coolLink[data-text="Projects"] {
     right: 200%;
   }
 }
@@ -198,7 +198,7 @@
   flex-direction: column;
   justify-content: center;
   border: none;
-  padding: 12px;
+  /*padding: 12px;*/
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
@@ -743,4 +743,4 @@
   .landing .scrollDown {
     scale: 0.7;
   }
-}/*# sourceMappingURL=landing.css.map */
+} /*# sourceMappingURL=landing.css.map */
